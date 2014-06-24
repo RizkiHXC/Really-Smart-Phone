@@ -32,5 +32,8 @@ window.onload = function () {
         window.location.replace("list.html");
     }
 
-    document.getElementById('saveData').onclick = initCoords;
+    // document.getElementById('saveData').onclick = initCoords;
+    $("#saveData").click(function () {
+        initCoords(); 
+    });
 }
